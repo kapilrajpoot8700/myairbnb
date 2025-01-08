@@ -36,22 +36,22 @@ public class PostServiceImpl implements PostService {
 
     }
 
-    Post mapToEntity(PostDto postDto){
-        Post post = new Post();
-        post.setTitle(postDto.getTitle());
-        post.setContent(postDto.getContent());
-        post.setDescription(postDto.getDescription());
-        return post;
-   }
-   PostDto mapToDto(Post post){
-        PostDto dto = new PostDto();
-        dto.setId(post.getId());
-        dto.setTitle(post.getTitle());
-        dto.setContent(post.getContent());
-        dto.setDescription(post.getDescription());
-        return dto;
-
-   }
+//    Post mapToEntity(PostDto postDto){
+//        Post post = new Post();
+//        post.setTitle(postDto.getTitle());
+//        post.setContent(postDto.getContent());
+//        post.setDescription(postDto.getDescription());
+//        return post;
+//   }
+//   PostDto mapToDto(Post post){
+//        PostDto dto = new PostDto();
+//        dto.setId(post.getId());
+//        dto.setTitle(post.getTitle());
+//        dto.setContent(post.getContent());
+//        dto.setDescription(post.getDescription());
+//        return dto;
+//
+//   }
 
 
 
